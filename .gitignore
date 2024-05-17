@@ -5,3 +5,4 @@ realdata
 files/
 .cache/
 .cache.db
+cache.db
