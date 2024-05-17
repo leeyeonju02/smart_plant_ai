@@ -1,6 +1,5 @@
 env/
 .env
-data
 realdata
 files/
 .cache/
