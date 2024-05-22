@@ -5,3 +5,4 @@ files/
 .cache/
 .cache.db
 cache.db
+__pycache__/
