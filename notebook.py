@@ -13,7 +13,7 @@ import argparse
 set_llm_cache(SQLiteCache("cache.db"))
 
 llm = ChatOpenAI(
-    temperature=0.4, api_key="something"
+    temperature=0.4, api_key="ㄴㄴㄴㄴㄴ"
 )
 memory = ConversationSummaryBufferMemory(
     llm=llm,
@@ -73,7 +73,7 @@ def invoke_chain(question):
     else:
         result = chain.invoke({"question": question})
         memory.save_context({"input": question}, {"output": result.content})
-        return f"NAMOO: {result.content}"
+        return f"{result.content}"
 
 
 def temperature(user_input, temp):
@@ -108,7 +108,7 @@ def humidityy(user_input, humidity):
     humid_pattern = r"습도"
 
     if re.search(humid_pattern, user_input, re.IGNORECASE):
-        if humidity < 60:
+        if humidity < 30:
             return "너무 건조해! 완전 사막이야!🐪 물이..부족..해..."
         elif humidity > 70:
             return "완전 홍수야! 물을 너무 많이 주면 안된단 말이야 😭"
