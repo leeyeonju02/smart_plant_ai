@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 from torchvision import models, transforms
 from PIL import Image
-#from note import invoke_chain
+from note import invoke_chain
 
 app = Flask(__name__)
 CORS(app)
@@ -78,37 +78,41 @@ def handle_500_error(e):
 
 
 
-# def AiAnswer(chatData):
-#     question = chatData.get("message")
-#     print("질문추출값: ", question)
-#     humidity = int(chatData.get("plantData").get("content").get("plantHistory").get("humidity"))
-#     temp = int(chatData.get("plantData").get("content").get("plantHistory").get("temp"))
-#     print("온도추출값: ", temp)
 
-#     # note.py의 함수를 직접 호출
-#     result = invoke_chain(question, humidity, temp)
+
+
+def AiAnswer(chatData):
+    question = chatData.get("message")
+    print("질문추출값: ", question)
+    # 수정된 부분: chatData 딕셔너리 구조에 맞게 접근
+    humidity = int(chatData.get("content").get("plantHistory").get("humidity"))
+    temp = int(chatData.get("content").get("plantHistory").get("temp"))
+    print("온도추출값: ", temp)
+
+    # note.py의 함수를 직접 호출
+    result = invoke_chain(question, humidity, temp)
     
-#     return result
+    return result
 
-# @app.route('/process', methods=['POST'])
-# def process_request():
-#     try:
-#         # 요청에서 JSON 데이터를 가져옵니다
-#         data = request.get_json()
-        
-#         # JSON 데이터를 딕셔너리 형태로 변환합니다
-#         if data is None:
-#             return jsonify({"error": "Invalid JSON"}), 400
 
-#         # notebook.py의 process_data 함수를 호출합니다
-#         result = AiAnswer(data)
+@app.route('/process', methods=['POST'])
+def process_request():
+    try:
+        # 요청에서 JSON 데이터를 가져옴 
+        data = request.get_json()
         
-#         # 결과를 JSON 형태로 반환합니다
-#         return jsonify(result), 200
+        # JSON 데이터를 딕셔너리 형태로 변환
+        if data is None:
+            return jsonify({"error": "Invalid JSON"}), 400
+
+        # note.py의 invoke_chain 함수를 호출
+        result = AiAnswer(data)
+        
+        # 결과를 JSON 형태로 반환
+        return jsonify(result), 200
     
-#     except Exception as e:
-#         return jsonify({"error": str(e)}), 500
-
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 
