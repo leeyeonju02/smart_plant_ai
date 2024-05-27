@@ -6,3 +6,4 @@ files/
 .cache.db
 cache.db
 __pycache__/
+modeldata
