@@ -112,51 +112,6 @@
 <br/>
 <br/>
 
-## 주요 기능
-
-### 시작하기
-
-|                                                            회원가입                                                            |                   메일 인증                    |                                                                                로그인 & 로그아웃                                                                                |
-| :----------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![회원가입](/public/assets/readmeImg/signup.gif) | ![메일인증](/public/assets/readmeImg/mail.gif) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![로그인_로그아웃](/public/assets/readmeImg/login_logout.gif) |
-
-<br />
-
-### 식물 입양
-
-<img src="./public/assets/readmeImg/addplant.gif" width="40%"/>
-
-<br/>
-
-### 홈
-
-|                식물 터치 이벤트                 |                                                                                    알림                                                                                    |                                                                                         퀘스트                                                                                          |
-| :---------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![식물터치](/public/assets/readmeImg/touch.gif) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![알림](/public/assets/readmeImg/notification.gif) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![퀘스트](/public/assets/readmeImg/quest.gif) |
-
-<br/>
-
-#### 원격 수분 공급 기능
-
-|              물주기 버튼 클릭 시              |                                                                        원격 수분 공급                                                                        |
-| :-------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![물주기](/public/assets/readmeImg/water.gif) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![물주기사진](/public/assets/readmeImg/waterplant.gif) |
-
-<br/>
-
-### 식물 히스토리
-
-<img src="./public/assets/readmeImg/history.png" width="100%"/>
-
-<br/>
-
-### 식물 페이지
-
-|                                                             식물 프로필 & 출석 체크                                                              |                   식물 도감                    |                       명예의 전당                        |
-| :----------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------: | :------------------------------------------------------: |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![출석체크](/public/assets/readmeImg/attend.gif) | ![식물도감](/public/assets/readmeImg/info.gif) | ![명예의전당](/public/assets/readmeImg/encyclopedia.gif) |
-
-<br/>
 
 ### AI
 
