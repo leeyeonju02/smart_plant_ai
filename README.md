@@ -1,4 +1,4 @@
-![logo](/public/assets/readmeImg/logo.png)
+![logo](/logo.png)
 
 > 식물을 꾸준히 키우는 데 도움을 주는 서비스
 
@@ -81,13 +81,13 @@
 
 ## 기술 스택
 
-![logo](/public/assets/readmeImg/skills.png)
+![logo](/skills.png)
 
 <br/>
 
 ## 서비스 아키텍처
 
-![logo](/public/assets/readmeImg/architecture.png)
+![logo](/architecture.png)
 
 > 클라이언트, Spring WAS 서버, Python Flask 서버, 그리고 MySQL 데이터베이스가 유기적으로 연결되어 작동합니다. 이를 통해 사용자는 식물의 상태를 쉽게 모니터링하고, 필요한 정보를 얻을 수 있습니다.
 
