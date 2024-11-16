@@ -186,10 +186,10 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=
 - **Total Test Accuracy**: `93.01%`
 
 
-##Backend Github Link 
+## Backend Github Link 
 https://github.com/Isonade2/smart_plant_back
 
-##Frontend Githum Link 
+## Frontend Githum Link 
 https://github.com/sanghee01/namoo-front
 
 <img src="./public/assets/readmeImg/ai_resnet.gif" width="100%"/>
